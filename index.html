@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Doodle Jump - Versão Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="game-container">
+            <canvas id="gameCanvas"></canvas>
+            <div id="score">Score: 0</div>
+            <div id="menu">
+                <h1>Doodle Jump</h1>
+                <button id="mainStartBtn">Começar Jogo</button>
+            </div>
+        </div>
+
+        <div id="external-controls">
+            <div class="side-group">
+                <button id="leftButton" class="ctrl-btn">←</button>
+                <button id="flyButtonL" class="ctrl-btn fly">VOAR</button>
+            </div>
+            
+            <button id="shootButton" class="ctrl-btn shoot">ATIRAR</button>
+            
+            <div class="side-group">
+                <button id="rightButton" class="ctrl-btn">→</button>
+                <button id="flyButtonR" class="ctrl-btn fly">VOAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
